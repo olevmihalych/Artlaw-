@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адвокат Великанова М.А. - Защита авторских прав</title>
+    <style>
+        :root {
+            --beige: #F5F5DC;
+            --navy: #00008B;
+            --burgundy: #800000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: var(--beige);
+            line-height: 1.6;
+            color: var(--navy);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: var(--navy);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .profile-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .profile-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .services-list {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid var(--burgundy);
+        }
+
+        .price-list {
+            background: var(--burgundy);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .contact-block {
+            background: var(--navy);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        h1, h2 {
+            color: var(--burgundy);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        li:before {
+            content: "•";
+            color: var(--burgundy);
+            margin-right: 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dashed;
+        }
+
+        @media (max-width: 768px) {
+            .profile-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Великанова Мария</h1>
+            <p>Адвокат по авторскому праву</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="profile-section">
+            <div>
+                <h2>Юридическая помощь</h2>
+                <p>Художникам, музыкантам, писателям, поэтам, фотографам и их наследникам</p>
+                <p>С 2009 года успешно работаю с:</p>
+                <ul>
+                    <li>Народными артистами</li>
+                    <li>Народными художниками</li>
+                    <li>Наследниками знаменитых авторов</li>
+                </ul>
+            </div>
+            <!-- Заменить на реальное фото -->
+            <img src="https://via.placeholder.com/400" alt="Фото адвоката" class="profile-img">
+        </section>
+
+        <section class="services-list">
+            <h2>Основные услуги</h2>
+            <ul>
+                <li>Грамотное составление договоров</li>
+                <li>Юридическое сопровождение наследников</li>
+                <li>Анализ договоров от организаций</li>
+                <li>Разработка договоров использования произведений</li>
+                <li>Пресечение незаконного использования</li>
+            </ul>
+        </section>
+
+        <section class="price-list">
+            <h2>Прайс-лист 2024</h2>
+            <ul>
+                <li>Устная консультация — 6 000 ₽</li>
+                <li>Помощь с наследством — от 8 000 ₽</li>
+                <li>Разработка договора — от 12 000 ₽</li>
+                <li>Юридическое оформление — от 25 000 ₽</li>
+                <li>Сопровождение деятельности — от 55 000 ₽/мес</li>
+            </ul>
+        </section>
+
+        <section class="contact-block">
+            <h2>Контакты</h2>
+            <p>+7 911 009-92-47 (WhatsApp/звонки)</p>
+            <p>advokatvel@yandex.ru</p>
+            <p>Рег. номер: 78/4867</p>
+            <p>
+                <a href="https://m.vk.com/velikanova_pravo" target="_blank">
+                    VK: velikanova_pravo
+                </a>
+            </p>
+            <p style="margin-top: 20px;">
+                <strong>Юридическая помощь бизнесу:</strong><br>
+                Использование изображений на сайте, в рекламе, товарах — решим!
+            </p>
+        </section>
+    </main>
+</body>
+</html>
